@@ -42,6 +42,7 @@ if ingredients_list:
         st.success('Your Smoothie is ordered, '+ name_on_order+'!', icon="✅")
 
 import requests
+st.write('debug 1 ')
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.write('debug1 ')
+st.write('debug 2 ')
 st.write(' ! ' +fruityvice_response.json()+' !')
