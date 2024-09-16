@@ -43,5 +43,5 @@ if ingredients_list:
 
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text('debug1 ')
-st.text(' ! ' +fruityvice_response.json()+' !')
+st.write('debug1 ')
+st.write(' ! ' +fruityvice_response.json()+' !')
