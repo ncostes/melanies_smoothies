@@ -43,6 +43,6 @@ if ingredients_list:
 
 import requests
 st.write('debug 1 ')
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.write('debug 2 ')
+#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+st.write('debug 2 \n')
 #st.write(' ! ' +fruityvice_response.json()+' !')
